@@ -1,0 +1,46 @@
+
+## Generic options
+lang: ru-RU
+number-sections: true
+toc: true
+toc-title: "Содержание"
+toc-depth: 2
+## Crossref customization
+crossref:
+  lof-title: "Список иллюстраций"
+  lot-title: "Список таблиц"
+  lol-title: "Листинги"
+
+format:
+  ### Docx output format
+  docx:
+    toc: true
+    number-sections: true
+
+
+  ### Pdf output format
+  pdf:
+    pdf-engine: xelatex
+    keep-tex: true
+
+    ### minted support
+
+    toc: true
+    number-sections: true
+    colorlinks: false
+    toc-depth: 2
+    lof: true # List of figures
+    lot: true # List of tables
+    latex-auto-install: false
+    #### Document
+
+    papersize: a4
+    fontsize: 12pt
+    linestretch: 1.5
+    #### Language
+    babel-lang: russian
+    babel-otherlangs: english
+    #### Biblatex
+   
+
+    
